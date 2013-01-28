@@ -1,0 +1,10 @@
+----------------------------------------------------------------
+Mon Jun 11 12:06:30 CDT 2012:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.8.2.2 - (1181258): instance a816c00e-0137-dc82-d3ad-000000ba1c40 
+on database directory C:\Users\bardellc\workspace\PianoServer\PIANODB  with class loader sun.misc.Launcher$AppClassLoader@11b86e7 
+Loaded from file:/C:/Users/bardellc/Desktop/workspace/PianoServer/lib/derby.jar
+java.vendor=Sun Microsystems Inc.
+java.runtime.version=1.6.0_26-b03
+user.dir=C:\Users\bardellc\workspace\PianoServer
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

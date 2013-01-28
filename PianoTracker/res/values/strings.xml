@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Identify">Please identify your role:</string>
+    <string name="app_name">Piano Assessment Tool</string>
+    <string name="sendA"> Send A </string>
+     <string name="sendB"> Send B </string>
+     <string name="Reconnect"> Reconnect </string>
+     <string name="lbl_pname">Piece Name:  </string>
+     <string name="repetoire">Repetoire</string>
+     <string name="blank"></string>
+     <string name="btn_submit">Submit</string>
+     <string name="student">Student</string>
+     <string name="teacher">Teacher</string>
+     <string name="ip">Please enter the IP address of the server</string>
+     <string name="connect">Connect</string>
+     <string name="studentName">Please select the student name</string>
+     <string name="cont">Continue</string>
+     <string name="addstudent">Add A New Student</string>
+     <string name="fName">First Name</string>
+     <string name="lName">Last Name</string>
+     <string name="year">Year</string>
+     <string name="submit">Submit</string>
+     <string name="sight">Sight Reading</string>
+     <string name="scales">Scales</string>
+     <string name="proficiency">Proficiency</string>
+     <string name="tempo">Tempo</string>
+     <string name="fingering">Fingering</string>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:orientation="vertical" android:id="@+id/SightBG">
+    <ScrollView android:layout_height="wrap_content" android:id="@+id/scrollView2" android:layout_width="match_parent">
+        <LinearLayout android:id="@+id/linearLayout1" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+            <TableLayout android:layout_height="match_parent" android:layout_width="match_parent" android:id="@+id/tableLayout1">
+                <TableRow android:layout_width="wrap_content" android:id="@+id/tableRow3" android:layout_height="wrap_content">
+                    <TextView android:layout_gravity="center_vertical" android:layout_height="wrap_content" android:textSize="20sp" android:text="Eyes On Music" android:id="@+id/textView2" android:gravity="center" android:layout_width="wrap_content"></TextView>
+                    <org.csuni.PianoApp.NumberPicker android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/pick_eom"></org.csuni.PianoApp.NumberPicker>
+                </TableRow>
+                <TableRow android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:id="@+id/tableRow2" android:layout_height="wrap_content">
+                    <TextView android:layout_gravity="center_vertical" android:layout_height="wrap_content" android:textSize="20sp" android:text="Looking Ahead" android:id="@+id/textView2" android:layout_width="wrap_content"></TextView>
+                    <org.csuni.PianoApp.NumberPicker android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/pick_la"></org.csuni.PianoApp.NumberPicker>
+                </TableRow>
+                <TableRow android:layout_width="wrap_content" android:id="@+id/tableRow9" android:layout_height="wrap_content">
+                    <TextView android:layout_gravity="center_vertical" android:layout_height="wrap_content" android:textSize="20sp" android:text="Analysis" android:id="@+id/Analysis" android:layout_width="wrap_content"></TextView>
+                    <org.csuni.PianoApp.NumberPicker android:layout_gravity="center" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/pick_analysis"></org.csuni.PianoApp.NumberPicker>
+                </TableRow>
+                <TableRow android:layout_width="wrap_content" android:id="@+id/tempo" android:layout_height="wrap_content">
+                    <TextView android:layout_gravity="center_vertical" android:layout_height="wrap_content" android:textSize="20sp" android:text="Tempo" android:id="@+id/TextView01" android:layout_width="wrap_content"></TextView>
+                    <org.csuni.PianoApp.NumberPicker android:layout_gravity="center" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/pick_tempo"></org.csuni.PianoApp.NumberPicker>
+                </TableRow>
+                <TableRow android:layout_width="wrap_content" android:gravity="center_vertical" android:id="@+id/tableRow5" android:layout_height="wrap_content">
+                    <TextView android:layout_gravity="center_vertical" android:layout_height="wrap_content" android:textSize="20sp" android:text="Pulse" android:id="@+id/textView2" android:layout_width="wrap_content"></TextView>
+                    <org.csuni.PianoApp.NumberPicker android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/pick_pulse"></org.csuni.PianoApp.NumberPicker>
+                </TableRow>
+                <TableRow android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:id="@+id/tableRow6" android:layout_height="wrap_content">
+                    <TextView android:layout_gravity="center_vertical" android:layout_height="wrap_content" android:textSize="20sp" android:text="Tone" android:id="@+id/textView2" android:layout_width="wrap_content"></TextView>
+                    <org.csuni.PianoApp.NumberPicker android:layout_gravity="center" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/pick_tone"></org.csuni.PianoApp.NumberPicker>
+                </TableRow>
+                <TableRow android:layout_width="wrap_content" android:id="@+id/tableRow7" android:layout_height="wrap_content">
+                    <TextView android:layout_gravity="center_vertical" android:layout_height="wrap_content" android:textSize="20sp" android:text="Fingering" android:id="@+id/textView2" android:layout_width="wrap_content"></TextView>
+                    <org.csuni.PianoApp.NumberPicker android:layout_gravity="center" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/pick_fingering"></org.csuni.PianoApp.NumberPicker>
+                </TableRow>
+                <TableRow android:layout_width="wrap_content" android:id="@+id/tableRow8" android:layout_height="wrap_content">
+                    <TextView android:layout_gravity="center_vertical" android:layout_height="wrap_content" android:textSize="20sp" android:text="Other" android:id="@+id/textView2" android:layout_width="wrap_content"></TextView>
+                    <org.csuni.PianoApp.NumberPicker android:layout_gravity="center" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/pick_other"></org.csuni.PianoApp.NumberPicker>
+                </TableRow>
+            </TableLayout>
+            <LinearLayout android:id="@+id/submit" android:gravity="center" android:layout_height="wrap_content" android:layout_weight="1" android:layout_width="match_parent" android:orientation="horizontal">
+                <TextView android:layout_width="wrap_content" android:text="@string/blank" android:id="@+id/textView3" android:layout_height="wrap_content"></TextView>
+                <Button android:gravity="center" android:layout_width="wrap_content" android:id="@+id/btn_submit" android:layout_gravity="top" android:layout_height="wrap_content" android:text="@string/btn_submit"></Button>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

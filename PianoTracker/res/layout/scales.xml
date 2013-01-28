@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:orientation="vertical" android:id="@+id/ScalesBG">
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+        <LinearLayout android:id="@+id/linearLayout2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:id="@+id/linearLayout3" android:layout_width="match_parent" android:orientation="vertical" android:layout_height="wrap_content">
+                <TextView android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/proficiency"></TextView>
+                <org.csuni.PianoApp.NumberPicker android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/pick_proficiency"/>
+            </LinearLayout>
+            <LinearLayout android:id="@+id/linearLayout4" android:layout_width="match_parent" android:orientation="vertical" android:layout_height="wrap_content">
+                <TextView android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tempo"></TextView>
+                <org.csuni.PianoApp.NumberPicker android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/pick_tempo"/>
+            </LinearLayout>
+            <LinearLayout android:id="@+id/linearLayout5" android:layout_width="match_parent" android:orientation="vertical" android:layout_height="wrap_content">
+                <TextView android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fingering"></TextView>
+                <org.csuni.PianoApp.NumberPicker android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/pick_fingering"/>
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:id="@+id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/blank"></TextView>
+        <Button android:layout_width="wrap_content" android:id="@+id/btn_submit" android:layout_height="wrap_content" android:text="@string/btn_submit"></Button>
+    </LinearLayout>
+</LinearLayout>
